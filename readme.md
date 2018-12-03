@@ -7,19 +7,9 @@
 [Dart Sass]: http://sass-lang.com/dart-sass
 [Node Sass]: https://github.com/sass/node-sass
 
-Before filing an issue with this repository, please consider:
-
-* Asking support questions on Use [Stack Overflow][].
-
-* Reporting issues with the output on the [Dart Sass][Dart Sass issues] or [LibSass][LibSass issues] issue trackers, depending which implementation you're using.
-
-* Reporting installation issues on the [Dart Sass][Dart Sass issues] or [Node Sass][Node Sass issues] issue trackers, depending on which implementation you're using.
-
-[Stack Overflow]: https://stackoverflow.com/questions/tagged/node-sass
-[Dart Sass issues]: https://github.com/sass/dart-sass/issues/new
-[LibSass issues]: https://github.com/sass/libsass/issues/new
-[Node Sass issues]: https://github.com/sass/node-sass/issues/new
-
+Forked from github.com/sindresorhus/grunt-sass
+* Updated to allow for automatic global imports
+* Creates a temporary file to with all imports which is rendered as .css
 
 ## Install
 
